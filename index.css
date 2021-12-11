@@ -1,0 +1,131 @@
+body{
+ 
+   /* display: flex;
+    justify-content: center*/
+ 
+    background-image: linear-gradient(to right,rgb(243, 204, 204),rgb(157, 231, 225));
+}
+.head{
+    
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding-left: 60px;
+    text-decoration: underline;
+    color: hotpink;
+    font-size: 2.5rem;
+}
+/* form css*/
+
+.formelement{
+    background-image: linear-gradient(to right,rgb(191, 229, 248),rgb(216, 238, 236));
+
+    margin: auto; 
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 15px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+#myform{
+    padding: 20px 60px 15px 60px;
+}
+span{
+    color: rgb(77, 173, 58);
+    
+}
+/*All labels css*/
+
+label{   
+    font-size: 1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: black;
+}
+.address{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.textin{ 
+    margin-top: 10px;
+    height: 1.8rem;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+option{
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
+
+/*checkboxes css*/
+
+select{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.checklabel{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkboxes{
+    margin-bottom: 15px;
+}
+
+input[type="radio"]{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.q{
+    margin-top: 15px;
+}
+
+.z{
+    margin-bottom: 20px;
+}
+
+/*button css*/
+
+button{
+    padding: 5px 20px;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    background-color: rgb(105, 238, 255);
+    border: 1px;
+    border-radius: 5%;
+}
+
+/*Table css*/
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+  
+    
+  }
+th,td{
+    text-align: center;
+    width:180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+th{
+    background-color: rgb(193, 238, 234);
+}
+.tables{
+    display: flex;
+   margin: auto;
+justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+/* THE END */
